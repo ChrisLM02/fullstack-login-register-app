@@ -16,6 +16,7 @@ import { LoginService } from './services/auth/login.service';
 import { JwtInterceptorService } from './services/auth/jwt-interceptor.service';
 import { ErrorInterceptorService } from './services/auth/error-interceptor.service';
 import { RegisterComponent } from './auth/register/register.component';
+import { RutaprotegidaComponent } from './auth/rutaprotegida/rutaprotegida.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { RegisterComponent } from './auth/register/register.component';
     LoginComponent,
     NavComponent,
     PersonalDetailsComponent,
-    RegisterComponent
+    RegisterComponent,
+    RutaprotegidaComponent
   ],
   imports: [
     BrowserModule,
