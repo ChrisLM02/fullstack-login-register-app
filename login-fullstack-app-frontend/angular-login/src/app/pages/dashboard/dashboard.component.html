@@ -1,0 +1,14 @@
+<app-nav></app-nav>
+<p *ngIf="!userLoginOn" class="alert alert-danger">No estás autenticado. Por favor, inicia sesión para poder realizar
+    cambios.</p>
+<p *ngIf="userLoginOn" class="alert alert-success">Estás autenticado</p>
+
+<div class="card ">
+    <div class="card-header">
+        Datos Editables
+    </div>
+    <div class="card-body m-0">
+        <app-personal-details></app-personal-details>
+    </div>
+
+</div>
